@@ -34,5 +34,6 @@ jobs:
       - name: Run python test
         run: |
           pwd
+          ls
           python -m unittest
           python -m unittest test_type_checker
